@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+      }
+      .header {
+        width: 100vw;
+        height: 14vh;
+        text-align: center;
+        color: white;
+        background-color: #333;
+      }
+
+      .container_one {
+        width: 100vw;
+        height: 43vh;
+        background-color: steelblue;
+      }
+      .container_two {
+        width: 100vw;
+        height: 43vh;
+        background-color: skyblue;
+      }
+      a {
+        display: inline-block;
+        width: 120px;
+        height: 45px;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+      }
+      .container_two a {
+        color: white;
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Sass Sandbox</h1>
+      </header>
+      <main class="main">
+        <div class="container_one">
+          <h2>section A</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis alias
+            fugiat provident ipsam laborum maxime facere sint aliquam, sequi
+            quisquam. ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+            perspiciatis, nihil cupiditate obcaecati numquam soluta a veritatis.
+            Numquam rerum enim, repellendus omnis tempora nisi exercitationem
+            autem porro excepturi corporis aperiam?
+          </p>
+          <a href="#" class="bouton_one">Read More</a>
+        </div>
+        <div class="container_two">
+          <h2>section B</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            maxime eveniet fugiat optio placeat, obcaecati voluptatem et quasi
+            suscipit perspiciatis cum deleniti beatae. ipsum dolor sit amet
+            consectetur adipisicing elit. Blanditiis labore fuga, vero,
+            dignissimos odit ipsa illo, doloremque illum in rem voluptates non
+            neque nemo consequatur quos molestias eveniet perspiciatis sit.
+          </p>
+          <a href="#" class="bouton_two">Read More</a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
